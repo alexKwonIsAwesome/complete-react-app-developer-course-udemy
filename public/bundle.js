@@ -50,7 +50,9 @@
 	var ReactDOM = __webpack_require__(34);
 	var Greeter = __webpack_require__(172);
 
-	ReactDOM.render(React.createElement(Greeter, { name: 'Alex', message: 'You\'re welcome here!' }), document.getElementById('app'));
+	var name = 'Kwon';
+
+	ReactDOM.render(React.createElement(Greeter, { name: name, message: 'You\'re welcome here!' }), document.getElementById('app'));
 
 /***/ },
 /* 1 */
